@@ -5,7 +5,7 @@ const BASICWEAPONS = {
     name: "Longsword",
     weight: 3.0,
     requirements: { str: 10, dex: 10 },
-    attackType: "regular",
+    attackType: "regular/thrust",
     upgradePath: "standard",
     base: {
       physical: 80,
@@ -24,7 +24,21 @@ const BASICWEAPONS = {
   ultra_GS: {
     name: "Black Knight Greatsword",
     weight: 14.0,
-    requirements: { str: 32, dex: 18}
+    requirements: { str: 32, dex: 18},
+    attackType: "regular/thrust",
+    upgradePath: "twinkling",
+    base: {
+      physical: 80,
+      magic: 0,
+      fire: 0,
+      lightning: 0
+    },
+    scaling: {
+      //str: 
+      //dex: 
+      int: 0,
+      fth: 0,
+    },
   }
   // new weapons go here
 };
