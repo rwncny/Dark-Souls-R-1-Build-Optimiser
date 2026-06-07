@@ -20,5 +20,11 @@ const BASICWEAPONS = {
       fth: 0
     },
   },
+
+  ultra_GS: {
+    name: "Black Knight Greatsword",
+    weight: 14.0,
+    requirements: { str: 32, dex: 18}
+  }
   // new weapons go here
 };
