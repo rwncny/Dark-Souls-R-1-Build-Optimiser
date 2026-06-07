@@ -1,4 +1,6 @@
-const WEAPONS = {
+// This file contains all basic weapons in the game, along with all necessary information about them
+
+const BASICWEAPONS = {
   longsword: {
     name: "Longsword",
     weight: 3.0,
